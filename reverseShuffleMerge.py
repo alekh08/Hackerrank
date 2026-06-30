@@ -1,3 +1,4 @@
+from collections import Counter
 def reverseShuffleMerge(s):
     # We process the string in reverse to simulate rev(A)
     s = s[::-1]
